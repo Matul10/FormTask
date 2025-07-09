@@ -1,0 +1,33 @@
+#cont{
+    /* border: 1px solid black; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont>div{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    /* Optional: Add smooth transition on hover */
+    transition: box-shadow 0.3s ease;
+}
+
+.input{
+    width: 80%;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#submit{
+    width: 250px;
+    height: 60px;
+}
